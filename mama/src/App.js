@@ -9,7 +9,7 @@ function App(props) {
     hello redux, the value of counter is :{props.counter}
      <div>
        <button onClick={props.increment}>+</button>
-       <button onClick={props.counter && props.decrement > 0}>-</button>
+       <button onClick={ props.decrement}>-</button>
      </div>
       </header>
     </div>
