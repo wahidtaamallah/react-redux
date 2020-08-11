@@ -1,4 +1,3 @@
-import { INCREMENT,DECREMENT } from '../Action/action'
 
 const initialState = {
     counter: 0,
